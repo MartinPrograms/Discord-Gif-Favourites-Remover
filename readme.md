@@ -9,7 +9,7 @@ This project provides a way to remove all gif favourites from a Discord user's s
    ```bash
    node remove_gifs.js <auth_token>
    ```
-   Replace `<auth_token>` with your Discord authentication token. [How?](https://gist.github.com/MarvNC/e601f3603df22f36ebd3102c501116c6/).
+   Replace `<auth_token>` with your Discord authentication token. [How?](https://gist.github.com/MarvNC/e601f3603df22f36ebd3102c501116c6/)
 4. The script will back up your original settings to a file named `settings_backup_<timestamp>.bin`.
 5. If you need to restore your settings, use the `upload.js` script with the backup file:
    ```bash
