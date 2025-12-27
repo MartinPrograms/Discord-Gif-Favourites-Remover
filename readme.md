@@ -23,4 +23,5 @@ This script automates the process by directly modifying the protobuf data to rem
 
 ## Disclaimer
 
-This code is janky. Use at your own risk :3
+This code is janky. Use at your own risk :3  
+If discord changes anything in their API this will break...
