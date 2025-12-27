@@ -13,7 +13,7 @@ This script automates the process by directly modifying the protobuf data to rem
    ```bash
    node remove_gifs.js <auth_token>
    ```
-   Replace `<auth_token>` with your Discord authentication token. [How?](https://gist.github.com/XielQs/90ab13b0c61c6888dae329199ea6aff3/)
+   Replace `<auth_token>` with your Discord authentication token. [How?](https://gist.github.com/XielQs/90ab13b0c61c6888dae329199ea6aff3/)  
    The script will back up your original settings to a file named `settings_backup_<timestamp>.bin`.
 5. (optional) If you need to restore your settings, use the `upload.js` script with the backup file:
    ```bash
