@@ -2,6 +2,10 @@
 
 This project provides a way to remove all gif favourites from a Discord user's settings by modifying the protobuf-encoded settings data.
 
+## Why? 
+Discord for some unholy cursed reason does not allow you to remove gif favourites apart from individually unfavouriting them which is a tedious process if you have many.
+This script automates the process by directly modifying the protobuf data to remove all gif favourites in one go.
+
 ## Usage
 1. Clone it
 2. Install dependencies using `npm install`.
